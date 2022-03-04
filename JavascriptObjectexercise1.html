@@ -1,0 +1,31 @@
+<!-- Create a simple login page with username and pass word field and
+ a login button. On click of login call java script to show popup
+  message as "Welcome  username".-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="exercise1.js"></script>
+  <title>Javascript Exercise1</title>
+  <style>
+    h1{
+      color:red;
+      text-align: center;
+    }
+    </style>
+</head>
+<body>
+  <h1>Login Page</h1>
+  <form>
+    <label for="user-name">Username:</label>
+    <input type="text" name="user-name" id="user-name">
+    <br>
+    <label for="user-pwd">Password:</label>
+    <input type="password" name="user-password" id="user-pwd">
+    <br>
+    <input type="submit" value="Login" onclick="showpopup()">
+</form>
+</body>
+</html>
