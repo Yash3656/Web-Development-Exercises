@@ -1,0 +1,36 @@
+<!-- jQuery get the value of a CSS property of an element         -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<style type="text/css">
+  div{
+    width:100px;
+    height:150px;
+    margin:10px;
+    cursor:pointer;
+    display:inline-block;
+  }
+</style>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('div').click(function(){
+        var color = $(this).css("background-color");
+        $("#res").html(color);
+      });
+    });
+    </script>
+</head>
+<body>
+  <div style ="background-color:orange;"></div>
+  <div style ="background-color:#ee82ee;"></div>
+  <div style ="background-color:rgb(139,205,50);"></div>
+  <div style ="background-color:#f00;"></div>
+  <p>The Computed background-color property value of this DIV element is:
+    <b id="res"></b></p>
+</body>
+</html>

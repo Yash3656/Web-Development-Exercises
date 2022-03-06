@@ -1,0 +1,23 @@
+<!-- When a user clicks on a button, all <p> elements will be hidden:-->
+<!DOCTYPE html>
+<html>
+<script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<body>
+
+<div id="demo">
+<h1>This is First Sample Program</h1>
+<p>Hello my name is Yash Agrawal</p><br>
+<p>I am Indian</p>
+<button type="button">Click ME to Hide Content</button>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('button').click(function(){
+    $('p').hide();
+  })
+})
+</script>
+
+</body>
+</html>

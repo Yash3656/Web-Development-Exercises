@@ -1,0 +1,45 @@
+<!-- Scroll event on windows. Run code when scroll happens.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <style type="text/css">
+
+    p{
+      width:100%;
+      padding:50px 0;
+      text-align:center;
+      font:bold 34px sans-serif;
+      background:#f0e68c;
+      position:fixed;
+      top:50px;
+      display:none;
+    }
+    .dummy{
+      height:600px;
+      font:34px sans-serif;
+      text-align:center;
+    }
+  </style>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $(window).scroll(function(){
+        $('p').show().fadeOut('slow');
+      });
+    });
+
+  </script>
+</head>
+<body>
+  <p>Scroll Happened!</p>
+  <div class="dummy"> Scroll the Viewport </div>
+  <div class="dummy"> Scroll the Viewport </div>
+  <div class="dummy"> Scroll the Viewport </div>
+  <div class="dummy"> Scroll the Viewport </div>
+  <div class="dummy"> Scroll the Viewport </div>
+</body>
+</html>

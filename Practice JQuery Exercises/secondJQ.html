@@ -1,0 +1,23 @@
+<!-- Modify above code to hide the id element test.(Hint give the second p element id='test');-->
+<!DOCTYPE html>
+<html>
+<script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<body>
+
+<div id="demo">
+<h1>This is First Sample Program</h1>
+<p>Hello my name is Yash Agrawal</p><br>
+<p id="test">I am Indian</p>
+<button type="button">Click ME to Hide Content</button>
+</div>
+
+<script>
+$(document).ready(function(){
+  $('button').click(function(){
+    $('#test').hide();
+  })
+})
+</script>
+
+</body>
+</html>
