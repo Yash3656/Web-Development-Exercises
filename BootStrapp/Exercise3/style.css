@@ -1,0 +1,48 @@
+  .main{
+    background-color:#005F69;
+  }
+  .nav-link{
+    color:black;
+  }
+
+  .title{
+
+  font-size:55px ;
+  font-weight:bold ;
+  font-family:sans-serif ;
+  padding-top:50px;
+  padding-left:25px;
+  color:white;
+}
+.subtitle{
+  font-size:22px;
+  font-family:sans-serif ;
+  padding-left:25px;
+  padding-top:35px;
+  color:white;
+}
+  .t1{
+    padding-left:35px;
+    padding-top:25px;
+  }
+  .t2{
+    padding-left:60px;
+    padding-top:25px;
+  }
+  .t3{
+    padding-left:40px;
+  }
+  .c1{
+    padding-left:25px;
+    padding-top:15px;
+  }
+  .c2{
+    padding-left:20px;
+    padding-top:25px;
+  }
+  .c3{
+    margin-left:none;
+    height:220px;
+    position:relative;
+    weight:100%;
+  }

@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+  background: #151515;
+}
+nav a:hover {
+  background: #999999;
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom: 2px solid blue;
+  padding: 6px 0;
+}
+.navbar{
+  position: relative;
+  padding: 10px;
+  max-width: 100;
+    opacity: 0.93;
+    align-items: center;
+}
+.para{
+  font-size: 34px;
+  padding: 5px;
+  align-items: stretch;
+  font-family: monospace;
+  text-align:justify;
+  color: white;
+}
+#para1{
+  margin-top: 40px;
+  font-size: 17px;
+  font-family:monospace;
+  text-align: justify;
+  color: blue;
+}
+#left{
+  position: absolute;
+  right: 0;
+}
+#home{
+padding-top: 170px;
+position: absolute;
+align-items: center;
+}
+.box{
+  margin-top: 105px;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+}
+.good{
+  margin-top: 40px;
+  padding: 15px;
+  align-items: center;
+}
+#game{
+  opacity: 1;
+  height: 130px;
+}
+#house{
+  opacity: 0.93;
+  height: 70px;
+}
